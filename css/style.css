@@ -1,0 +1,307 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.lh1-5 {
+  line-height: 1.5;
+}
+
+.letter-spacing {
+  letter-spacing: 0.15em;
+}
+
+.about-p {
+  background-color: #f5f5f5;
+  line-height: 1.7;
+  border-radius: 1%;
+}
+
+.aboutme-p {
+  background-color: #f5e5e517;
+  color: #b69941;
+  line-height: 1.7;
+  border-radius: 1%;
+}
+
+.signin-box {
+  background: rgb(52, 52, 184);
+  background: linear-gradient(155deg, rgba(52, 52, 184, 1) 37%, rgba(31, 144, 241, 1) 63%);
+  border-radius: 1rem;
+}
+
+.divider {
+  width: 0.5%;
+  background-color: #300808;
+  border-radius: 2rem;
+}
+
+.signup-benefits {
+  background-color: #ec9522;
+  border-radius: 1rem;
+}
+
+.titlebenefit {
+  font-size: 1.60rem;
+  color: #1f1f1f;
+}
+
+.benefits {
+  font-size: 1.35rem;
+}
+
+.nickname-p {
+  font-size: 0.90rem;
+}
+
+.w-12 {
+  width: 12%;
+}
+
+.w-70 {
+  width: 50%;
+}
+
+.dropdown:hover>.dropdown-menu-hovered {
+  display: block;
+}
+
+.utilities-div {
+  flex-grow: 0;
+}
+
+.utilities-ul {
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 991.98px) {
+  .utilities-div {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .utilities-div {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .utilities-div {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 991.98px) {
+
+  .instagram-link,
+  .facebook-link {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .instagram-link,
+  .facebook-link {
+    padding-left: 0;
+  }
+}
+
+body {
+  background-color: #f7f5f5;
+}
+
+.wrapper {
+  background-image: url(../images/aloo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    background-size: 115%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    background-size: 125%;
+  }
+}
+
+main {
+  margin-bottom: 7.5rem;
+}
+
+.footer {
+  padding-bottom: 15%;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-size-3 {
+  font-size: 2.85rem;
+}
+
+.brightness-60 {
+  filter: brightness(60%);
+}
+
+#back-to-top,
+.dropdown-toggle,
+.btn-clean {
+  background: none;
+  color: inherit;
+  border: none;
+}
+
+#back-to-top:focus,
+.dropdown-toggle:focus {
+  outline: none;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.footer-li {
+  font-size: 0.90rem;
+  color: #1f1f1f;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: opacity ease-in-out 4s;
+}
+
+.footer-li:hover .nav-link {
+  opacity: 0.6;
+}
+
+.nav-footer {
+  padding: 16px 8px 16px 8px !important;
+}
+
+.main-footer-nav .navbar-nav .nav-item {
+  font-weight: 500;
+}
+
+.socials {
+  font-size: 5px;
+}
+
+.copyright {
+  font-size: 0.75em;
+}
+
+.bgc-profile-img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.profile-image-block {
+  width: 150px;
+  height: 150px;
+  margin-top: -90px;
+}
+
+.input-wrapper {
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+.edit-personal-box {
+  display: flex;
+  border-right: 1px;
+  border-left: 1px;
+  margin: 3rem 0rem 3rem 0rem;
+  padding: 15px;
+}
+
+.account-titles {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.left-padding {
+  padding-left: 50px;
+}
+
+.password-verify {
+  font-size: 1.10em;
+  color: rgb(175, 47, 47);
+}
+
+.full-name {
+  color: #1f1f1f;
+  font-size: 1.20rem;
+}
+
+.dropback {
+  padding: 0;
+  border-radius: 0.50rem;
+}
+
+.profile-drop {
+  background-color: #1f1f1f;
+  padding: 2px;
+  color: white;
+  border-radius: 0.50rem;
+  text-align: center;
+}
+
+.profile-drop:hover {
+  background-color: #1f1f1fec;
+  border-radius: 0.50rem;
+  color: white;
+}
+
+.w-0 {
+  width: 0%;
+}
+
+.file-box {
+  display: flex;
+  position: relative;
+  top: -23%;
+  left: 108%;
+  width: 0%;
+}
+
+/* 
+.fa-camera {
+  position: relative;
+  top: -95%;
+  left: 7%;
+  cursor: pointer;
+  color: #ff009d;
+} */
+
+
+.custom-file-input::after {
+  content: unset;
+  padding: 3%;
+  height: 3%;
+  background-color: #fff;
+  border-radius: unset;
+  z-index: unset;
+  top: unset;
+  right: unset;
+  left: unset;
+  cursor: pointer;
+}
+
+.profile-file {
+  width: 100%;
+  left: -30%;
+  top: -23%;
+  width: 30%;
+  height: 100%;
+}
